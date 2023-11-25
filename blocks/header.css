@@ -15,7 +15,16 @@
 
 .header__logo {
   display: flex;
+  flex-direction: column;
   width: 140px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__logo-row {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 8px;
@@ -31,6 +40,17 @@
   width: 97px;
   height: 15px;
   flex-shrink: 0;
+}
+
+.header__logo-text {
+  margin: 0;
+  padding: 0;
+  color: #E4E5EA;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 .header_nav {
@@ -75,7 +95,7 @@
   line-height: normal;
 }
 
-.header__social-link {
+.social__link {
   width: 20px;
   height: 19px;
   flex-shrink: 0;

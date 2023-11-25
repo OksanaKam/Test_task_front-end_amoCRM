@@ -1,0 +1,128 @@
+.footer {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 55px 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.footer__nav-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 701px;
+  width: 100%;
+}
+
+.footer__group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__group_type_menu {
+  max-width: 408px;
+  width: 100%;
+}
+
+.footer__group_type_contacts {
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.footer__title {
+  margin: 0;
+  padding: 0;
+  color: #656566;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 140px;
+  margin: 0;
+  padding: 0;
+  row-gap: 10px;
+  column-gap: 52px;
+  list-style: none;
+}
+
+.footer__link {
+  margin: 0;
+  padding: 0;
+  color: #E4E5EA;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.footer__phone {
+  margin: 0;
+  padding: 0;
+  color: #E4E5EA;
+  text-align: right;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer__social-links {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.footer__address {
+  margin: 0;
+  padding: 0;
+  color: #E4E5EA;
+  text-align: right;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__rights {
+  margin: 50px 0 -15px;
+  padding: 0;
+  color: #E4E5EA;
+  text-align: right;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__policy {
+  margin: 0;
+  padding: 0;
+  color: #E4E5EA;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
