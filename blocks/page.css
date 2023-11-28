@@ -12,3 +12,27 @@ body {
   -moz-text-size-adjust: 100%;
   background: #0E1014;
 }
+
+.page__red-ball {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  top: 72px;
+  left: 504px;
+}
+
+.page__purple-ball {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  top: -6px;
+  left: 854px;
+}
+
+.page__small-ball {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 536px;
+  left: 838px;
+}
