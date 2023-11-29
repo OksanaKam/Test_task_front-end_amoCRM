@@ -107,3 +107,56 @@
   height: 19px;
   flex-shrink: 0;
 }
+
+@media screen and (max-width: 1200px) {
+  .header__container {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .header__phone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__contacts {
+    display: none;
+  }
+
+  .header_nav {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .header__logo {
+    display: none;
+  }
+
+  .header_nav {
+    margin: 19px auto;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .header__links {
+    gap: 16px;
+  }
+
+  .header__link {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    padding: 0;
+  }
+
+  .header__list:last-child {
+    display: none;
+  }
+}

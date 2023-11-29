@@ -70,7 +70,7 @@
   align-self: flex-end;
   color: var(--light-text, #E4E5EA);
   text-align: right;
-  font-family: Inter;
+  font-family: 'Inter';
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -148,11 +148,73 @@
   background: #4077F3;
   color: #E4E5EA;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   border: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .content {
+    padding: 87px 16px 69px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .content {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .details__text {
+    align-self: flex-start;
+    text-align: left;
+  }
+
+  .details__title {
+    text-align: left;
+  }
+
+  .details__describe {
+    text-align: left;
+  }
+
+  .details__button {
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content {
+    padding-top: 40px;
+  }
+
+  .about-us {
+    gap: 15px;
+  }
+
+  .about-us__title {
+    max-width: 272px;
+    font-size: 36px;
+  }
+
+  .about-us__name {
+    font-size: 36px;
+  }
+
+  .details {
+    margin-top: 0;
+  }
+
+  .details__text {
+    max-width: 272px;
+  }
+
+  .details__span {
+    letter-spacing: 0;
+    text-transform: none;
+  }
 }

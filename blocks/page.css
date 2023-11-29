@@ -36,3 +36,25 @@ body {
   top: 536px;
   left: 838px;
 }
+
+@media screen and (max-width: 1205px) {
+  .page__small-ball {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .page__purple-ball {
+    display: none;
+  }
+
+  .page__small-ball {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .page__red-ball {
+    display: none;
+  }
+}
