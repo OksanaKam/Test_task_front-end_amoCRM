@@ -20,6 +20,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 .header__logo-row {
@@ -149,14 +150,14 @@
     font-size: 12px;
     text-transform: uppercase;
   }
+
+  .header__list:last-child {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 375px) {
   .header {
     padding: 0;
-  }
-
-  .header__list:last-child {
-    display: none;
   }
 }
